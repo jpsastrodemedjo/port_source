@@ -16,13 +16,9 @@ TIMEZONE = 'Europe/Dublin'
 
 DEFAULT_LANG = 'en'
 
-STATIC_PATHS = ['theme/images', 'images']
+STATIC_PATHS = ['images','img','extra']
 USE_SHORTCUT_ICONS=True
 
-STATIC_PATHS = [
-    'img',
-    'extra',  # this
-]
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }

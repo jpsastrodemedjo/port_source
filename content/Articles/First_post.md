@@ -2,38 +2,46 @@ title: Induction
 author: JP Sastrodemedjo\
 Date: 04/04/2020  
 Category: Trainee Blog  
-Tags: python, markdown, pelican \
-Slug: Induction 
+Tags: python, markdown, pelican
+Slug: Induction
 
 ### Week 1 Blog
 
-  1. Learned how to use **Git**
-     * tracking
-     * adding to the staging area
-     * committing changes
-     * adding files to remote repositories (github)
-     *  branching and merging)
-  2. Completed **Fundamental of Medical Ethics** course
-  3. Completed **IAEA Safety and Quality in RT** course 
-  4. Read SLRON **Local Rules**, Policies & Procedures etc. 
-  5. Learned how to generate a static site with pelican & markdown (in Visual Studio code)
-  
-   adding content
-     * changing theme and adding favicon 
+1. Learned how to use **Git**
+    * tracking
+    * adding to the staging area
+    * committing changes
+    * adding files to remote repositories (github)
+    * branching and merging)
+2. Completed **Fundamental of Medical Ethics** course
+3. Completed **IAEA Safety and Quality in RT** course
+4. Read SLRON **Local Rules**, Policies & Procedures etc.
+5. Learned how to generate a static site with pelican & markdown (in vscode)
+6. This is how syntax highlighting works, indent and 3 colons with the name of the language (python3)
 
-    :::python
-    def do_twice(func):   
-    def wrapper_do_twice(*args, **kwargs):
-        return func(*args, **kwargs).lower()
-    return wrapper_do_twice
+        :::python3  
+        x = ("hello")   
+        print(x)
 
-    @do_twice
-    def say_whee(some_text):
-        print(some_text)
+7. To deploy a static website to Github pages
 
-    x = 'Whee!'
-    say_whee(x)
-  
+    While in the *blog/output* folder run the following git commands in order to push files to the *username.github.io* repository.
+
+    ```git init```  
+    ```git remote add origin https://github.com/username/username.github.io```  
+    ```git add .``` 
+    ```git commit -m "initial commit" ```   
+    ```git push -u origin master```
+
+    Next, navigate to the *blog/source* folder run the following git commands in order to push our files to the blog_source repository:
+
+    ```git init```  
+    ```git remote add origin https://github.com/username/port_blog```   
+    ```git add .``` 
+    ```git commit -m "initial commit"```    
+    ```git push -u origin master``` 
+
+    After running both sequences of Git commands we should be able to see our files loaded into their respective repositories on Github. To view the website type [https://jpsastrodemedjo.github.io](https://jpsastrodemedjo.github.io) into your web browser.
 
 ### Week 2 To-do list
 
@@ -41,6 +49,3 @@ Slug: Induction
 - Python Session with Pat (Wed)
 - Radiation Safety Procedures Q+A (Thurs)
 - Basic Interactions oral exam (Fri)
-
-
-
