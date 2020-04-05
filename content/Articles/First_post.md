@@ -17,7 +17,8 @@ Slug: Induction
   3. Completed **IAEA Safety and Quality in RT** course 
   4. Read SLRON **Local Rules**, Policies & Procedures etc. 
   5. Learned how to generate a static site with pelican & markdown (in Visual Studio code)
-     * adding content
+  
+   adding content
      * changing theme and adding favicon 
 
     :::python
