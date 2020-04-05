@@ -30,8 +30,25 @@ EXTRA_PATH_METADATA = {
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
-PLUGIN_PATHS = ['plugins/', ]
-PLUGINS = ['i18n_subsites', ]
+PLUGIN_PATHS = ['plugins/pelican-plugins', ]
+PLUGINS = ['i18n_subsites','sitemap','ipynb.markup']
+
+SITEMAP = {
+    'format': 'xml',
+    'priorities': {
+        'articles': 0.5,
+        'indexes': 0.5,
+        'pages': 0.5
+    },
+    'changefreqs': {
+        'articles': 'monthly',
+        'indexes': 'daily',
+        'pages': 'monthly'
+    }
+}
+
+MARKUP = ('md', 'ipynb')
+IGNORE_FILES = [".ipynb_checkpoints"]
 
 BOOTSTRAP_THEME = 'flatly'
 
@@ -48,6 +65,9 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+IPYNB_USE_METACELL = True
+
 # next learn how to add content and change site url
 
 # Feed generation is usually not desired when developing

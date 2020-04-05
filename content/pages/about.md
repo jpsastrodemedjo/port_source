@@ -1,4 +1,4 @@
-title: About me     
+title: About    
 date: 04/04/2020    
 modified: 04/04/2020    
 status: published    
