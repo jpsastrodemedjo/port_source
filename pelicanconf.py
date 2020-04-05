@@ -26,8 +26,10 @@ EXTRA_PATH_METADATA = {
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 
+DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
+
 PLUGIN_PATHS = ['plugins/pelican-plugins', ]
-PLUGINS = ['i18n_subsites','sitemap','ipynb.markup']
+PLUGINS = ['i18n_subsites','sitemap','ipynb.markup','tipue_search']
 
 SITEMAP = {
     'format': 'xml',

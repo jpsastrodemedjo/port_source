@@ -29,7 +29,7 @@ Slug: Induction
 
     ```git init```  
     ```git remote add origin https://github.com/username/username.github.io```  
-    ```git add .``` 
+    ```git add .```  
     ```git commit -m "initial commit" ```   
     ```git push -u origin master```
 
@@ -37,11 +37,13 @@ Slug: Induction
 
     ```git init```  
     ```git remote add origin https://github.com/username/port_blog```   
-    ```git add .``` 
+    ```git add .```  
     ```git commit -m "initial commit"```    
     ```git push -u origin master``` 
 
     After running both sequences of Git commands we should be able to see our files loaded into their respective repositories on Github. To view the website type [https://jpsastrodemedjo.github.io](https://jpsastrodemedjo.github.io) into your web browser.
+
+    [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ### Week 2 To-do list
 

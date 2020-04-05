@@ -61,6 +61,7 @@
     <!-- Bootstrap -->
     {% if BOOTSTRAP_THEME %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.{{ BOOTSTRAP_THEME }}.min.css" type="text/css"/>
+        <!-- <link rel="stylesheet" href="{{ SITEURL }}/theme/tipuesearch/tipuesearch.css"> -->
     {% else %}
         <link rel="stylesheet" href="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/css/bootstrap.min.css" type="text/css"/>
     {% endif %}
@@ -160,6 +161,9 @@
             <ul class="nav navbar-nav navbar-right">
             {% if 'tipue_search' in PLUGINS %}
               <li><span>
+                <!-- <form id="searchform" action="/search" onsubmit="return (this.elements['q'].value.length > 0)">
+                    <input id="searchbox" type="text" name="q" size="12" placeholder="Search">
+                </form> -->
                 <form class="navbar-search" action="{{ SEARCH_URL | default('/search.html') }}">
                   <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
                 </form></span>
