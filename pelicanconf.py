@@ -3,10 +3,8 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'John Peter Sastrodemedjo'
-SITENAME = 'Welcome to my Trainee Journey'
+SITENAME = ''
 SITEURL = ''
-
-# RELATIVE_URLS = False
 
 PATH = 'content'
 
@@ -22,6 +20,14 @@ USE_SHORTCUT_ICONS=True
 EXTRA_PATH_METADATA = {
     'extra/favicon.ico': {'path': 'favicon.ico'}
 }
+
+DISPLAY_CATEGORIES_ON_MENU = False
+DISPLAY_PAGES_ON_MENU = False
+
+MENUITEMS = (('Home','/'),
+    ('About', '/pages/about/index.html'),
+    ('Blog', '/category/trainee-blog/index.html')
+    )
 
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}

@@ -6,7 +6,6 @@ Tags: python, markdown, pelican
 Slug: Induction
 
 ### Week 1 Blog
-
 1. Learned how to use **Git**
     * tracking
     * adding to the staging area
@@ -43,10 +42,10 @@ Slug: Induction
 
     After running both sequences of Git commands we should be able to see our files loaded into their respective repositories on Github. To view the website type [https://jpsastrodemedjo.github.io](https://jpsastrodemedjo.github.io) into your web browser.
 
-    [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+    > [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
 
 ### Week 2 To-do list
-
 - Read HSE Polices + Procedures
 - Python Session with Pat (Wed)
 - Radiation Safety Procedures Q+A (Thurs)
