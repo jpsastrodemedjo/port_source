@@ -3,6 +3,8 @@ date: 04/04/2020
 modified: 04/04/2020    
 status: published    
 
+![selfie]({static}/img/teide.jpg)
+
 Hi! My name is John Peter, having finished my MSc degree I am now currently working as a Year 1 medical physics resident
 at St. Luke's Radiation Oncology Network (SLRON), Rathgar in Dublin, Ireland.
 
