@@ -14,7 +14,7 @@ TIMEZONE = 'Europe/Dublin'
 
 DEFAULT_LANG = 'en'
 
-STATIC_PATHS = ['images','img','extra']
+STATIC_PATHS = ['img','extra']
 USE_SHORTCUT_ICONS=True
 
 EXTRA_PATH_METADATA = {
@@ -25,7 +25,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (('Home','/'),
-    ('About', '/pages/about/index.html'),
+    ('About me', '/pages/about/index.html'),
     ('Blog', '/category/trainee-blog/index.html')
     )
 
@@ -53,6 +53,7 @@ SITEMAP = {
 
 MARKUP = ('md', 'ipynb')
 IGNORE_FILES = [".ipynb_checkpoints"]
+IPYNB_USE_METACELL = True
 
 BOOTSTRAP_THEME = 'flatly'
 
@@ -69,8 +70,6 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
-
-IPYNB_USE_METACELL = True
 
 # next learn how to add content and change site url
 
