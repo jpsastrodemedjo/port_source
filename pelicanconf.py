@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'John Peter Sastrodemedjo'
-SITENAME = ''
+SITENAME = 'MedPy'
 SITEURL = ''
 
 PATH = 'content'
@@ -24,9 +24,9 @@ EXTRA_PATH_METADATA = {
 DISPLAY_CATEGORIES_ON_MENU = False
 DISPLAY_PAGES_ON_MENU = False
 
-MENUITEMS = (('Home','/'),
-    ('About me', '/pages/about/index.html'),
-    ('Blog', '/category/trainee-blog/index.html')
+MENUITEMS = (
+    ('About me', '/pages/about-me/index.html'),
+    ('Trainee Blog', '/category/trainee-blog/index.html')
     )
 
 THEME = 'pelican-bootstrap3'
@@ -35,7 +35,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 
 PLUGIN_PATHS = ['plugins/pelican-plugins', ]
-PLUGINS = ['i18n_subsites','sitemap','ipynb.markup','tipue_search']
+PLUGINS = ['i18n_subsites','sitemap','pelican-ipynb.markup','tipue_search']
 
 SITEMAP = {
     'format': 'xml',
@@ -57,7 +57,7 @@ IPYNB_USE_METACELL = True
 
 BOOTSTRAP_THEME = 'flatly'
 
-PYGMENTS_STYLE = 'monokai'
+PYGMENTS_STYLE = 'github'
 
 ARTICLE_PATHS = ['Articles']
 PAGE_PATHS = ['pages']
