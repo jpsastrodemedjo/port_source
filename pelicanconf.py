@@ -3,7 +3,7 @@
 from __future__ import unicode_literals
 
 AUTHOR = 'John Peter Sastrodemedjo'
-SITENAME = 'MedPy'
+SITENAME = 'JPS'
 SITEURL = ''
 
 PATH = 'content'
@@ -81,13 +81,11 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Notion', 'https://www.notion.so/Home-3aa067dbaaf848a69ef0635f96467202'),
-         ('Github', 'https://github.com/jpsastrodemedjo'),
+LINKS = (('Github', 'https://github.com/jpsastrodemedjo'),
          ('Anaconda Cloud', 'https://anaconda.org/jpsastrodemedjo/dashboard'),)
 
 # Social widget
-SOCIAL = (('Instagram', 'https://www.instagram.com/jpgadil/'),
-          ('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/'))
+SOCIAL = (('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/'))
 
 DEFAULT_PAGINATION = False
 
