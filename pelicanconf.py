@@ -71,8 +71,6 @@ CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
 
-# next learn how to add content and change site url
-
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
 CATEGORY_FEED_ATOM = None
@@ -85,7 +83,7 @@ LINKS = (('Github', 'https://github.com/jpsastrodemedjo'),
          ('Anaconda Cloud', 'https://anaconda.org/jpsastrodemedjo/dashboard'),)
 
 # Social widget
-SOCIAL = (('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/'))
+SOCIAL = ('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/')
 
 DEFAULT_PAGINATION = False
 
