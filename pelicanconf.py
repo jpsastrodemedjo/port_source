@@ -83,7 +83,7 @@ LINKS = (('Github', 'https://github.com/jpsastrodemedjo'),
          ('Anaconda Cloud', 'https://anaconda.org/jpsastrodemedjo/dashboard'),)
 
 # Social widget
-SOCIAL = ('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/')
+# SOCIAL = ('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/')
 
 DEFAULT_PAGINATION = False
 

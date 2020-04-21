@@ -5,7 +5,7 @@ status: published
 
 ![selfie]({static}/img/teide.jpg)
 
-Hi! My name is John Peter, having finished my MSc degree I am now currently working as a Year 1 medical physics resident
+Hi! I'm John Peter and having finished my MSc degree I am now currently working as a Year 1 medical physics resident
 at St. Luke's Radiation Oncology Network (SLRON), Rathgar in Dublin, Ireland.
 
 My interests include outdoor activities such as
