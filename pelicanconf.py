@@ -26,8 +26,8 @@ DISPLAY_PAGES_ON_MENU = False
 
 MENUITEMS = (
     ('About me', '/pages/about-me/index.html'),
-    ('Trainee Blog', '/category/trainee-blog/index.html')
-    )
+    ('Trainee Blog', '/category/trainee-blog/index.html'),
+    ('Resources','/category/resources/index.html'))
 
 THEME = 'pelican-bootstrap3'
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
@@ -83,7 +83,7 @@ LINKS = (('Github', 'https://github.com/jpsastrodemedjo'),
          ('Anaconda Cloud', 'https://anaconda.org/jpsastrodemedjo/dashboard'),)
 
 # Social widget
-# SOCIAL = ('LinkedIn','https://www.linkedin.com/in/john-peter-sastrodemedjo-816730193/')
+# SOCIAL = ('Google Calendar','https://calendar.google.com/calendar/b/1/r')
 
 DEFAULT_PAGINATION = False
 
