@@ -55,7 +55,7 @@ MARKUP = ('md', 'ipynb')
 IGNORE_FILES = [".ipynb_checkpoints"]
 IPYNB_USE_METACELL = True
 
-BOOTSTRAP_THEME = 'flatly'
+BOOTSTRAP_THEME = 'united'
 
 PYGMENTS_STYLE = 'github'
 
@@ -70,6 +70,11 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
+DISPLAY_ARTICLE_INFO_ON_INDEX = True
+# PADDED_SINGLE_COLUMN_STYLE = True
+
+BOOTSTRAP_NAVBAR_INVERSE = True
+# SIDEBAR_ON_LEFT = True 
 
 # DISPLAY_TAGS_ON_SIDEBAR = True
 # DISPLAY_TAGS_INLINE = True
