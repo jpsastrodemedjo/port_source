@@ -2,7 +2,7 @@ title: Python book + website recommendations
 author: JP Sastrodemedjo\
 Date: 22/04/2020  
 Category: Resources
-Tags: python, markdown, pelican
+Tags: python, resources
 Slug: python book recommendations
 
 #### Books

@@ -35,7 +35,7 @@ JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']}
 DIRECT_TEMPLATES = (('index', 'tags', 'categories', 'archives', 'search'))
 
 PLUGIN_PATHS = ['plugins/pelican-plugins', ]
-PLUGINS = ['i18n_subsites','sitemap','pelican-ipynb.markup','tipue_search']
+PLUGINS = ['i18n_subsites','sitemap','pelican-ipynb.markup','tipue_search','tag_cloud']
 
 SITEMAP = {
     'format': 'xml',
@@ -70,6 +70,10 @@ CATEGORY_URL = 'category/{slug}'
 CATEGORY_SAVE_AS = 'category/{slug}/index.html'
 TAG_URL = 'tag/{slug}'
 TAG_SAVE_AS = 'tag/{slug}/index.html'
+
+# DISPLAY_TAGS_ON_SIDEBAR = True
+# DISPLAY_TAGS_INLINE = True
+
 
 # Feed generation is usually not desired when developing
 FEED_ALL_ATOM = None
